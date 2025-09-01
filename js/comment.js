@@ -12,5 +12,9 @@ document.getElementById('btn-comment')
         const classes = document.getElementById('get-classes').classList
         newComment.classList.add(...classes)
         newComment.classList.replace('mb-4', 'mt-4')
+
+        // step 04 append the new comment 
+        const commentSection = document.getElementById('comment-section')
+        commentSection.appendChild(newComment)
     }
     )
