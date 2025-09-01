@@ -16,5 +16,8 @@ document.getElementById('btn-comment')
         // step 04 append the new comment 
         const commentSection = document.getElementById('comment-section')
         commentSection.appendChild(newComment)
+
+        // Clear the text box
+        textBox.value = '';
     }
     )
