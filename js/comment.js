@@ -3,5 +3,10 @@ document.getElementById('btn-comment')
         // step 01 get the text from the text box
         const textBox = document.getElementById('text-Box')
         const comment = textBox.value
+
+        //  Step 02  create a p element
+        const newComment = document.createElement('p')
+        newComment.innerText = comment
+
     }
     )
